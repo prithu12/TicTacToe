@@ -30,7 +30,7 @@ const checkwin=()=>{
             gameover.play();
             var popup = document.querySelector(".win-popup");
             popup.style.width = "100%";
-            document.querySelector('.chickendinner').innerText = "Congratulations!    " +    boxtexts[e[0]].innerText+"   Won the Match";
+            document.querySelector('.chickendinner').innerText = "Congratulations!    " +boxtexts[e[0]].innerText+ "   Won the Match";
             let close = document.querySelector(".close");
             close.addEventListener("click", () => {
                 popup.style.width = "0%";
